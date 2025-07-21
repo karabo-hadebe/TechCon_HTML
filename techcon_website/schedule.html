@@ -1,76 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Schedule for TechCon 2024</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Schedule for TechCon 2024</title>
+    <style>
+        /* Basic styling for table and nav for clarity */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 1rem;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+        header, footer {
+            background-color: #004080;
+            color: white;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin-right: 1.25rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover, nav a:focus {
+            text-decoration: underline;
+        }
+        main {
+            margin: 2rem 0;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        caption {
+            caption-side: top;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.25rem;
+            padding: 1rem 0;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.75rem 1rem;
+            text-align: left;
+        }
+        th {
+            background-color: #007acc;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Schedule for TechCon 2024</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="register.html">Register</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+        <table>
+            <caption>Detailed Schedule of Events for TechCon 2024</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 - 09:30</td>
+                    <td>Opening Keynote: The Future of Technology</td>
+                    <td>Dr. Jane Smith</td>
+                </tr>
+                <tr>
+                    <td>09:45 - 10:30</td>
+                    <td>AI in Everyday Life</td>
+                    <td>Prof. Alan Turing</td>
+                </tr>
+                <tr>
+                    <td>10:45 - 11:30</td>
+                    <td>Breakout: Cybersecurity Best Practices</td>
+                    <td>Ms. Rachel Green</td>
+                </tr>
+                <tr>
+                    <td>11:45 - 12:30</td>
+                    <td>Panel Discussion: Women in Tech</td>
+                    <td>Various Speakers</td>
+                </tr>
+                <tr>
+                    <td>12:30 - 13:30</td>
+                    <td>Lunch Break</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>13:30 - 14:15</td>
+                    <td>Workshop: Introduction to Quantum Computing</td>
+                    <td>Dr. Lin Wei</td>
+                </tr>
+                <tr>
+                    <td>14:30 - 15:15</td>
+                    <td>Networking Strategies for Tech Professionals</td>
+                    <td>Mr. Carlos Diaz</td>
+                </tr>
+                <tr>
+                    <td>15:30 - 16:15</td>
+                    <td>Emerging Trends in Virtual Reality</td>
+                    <td>Ms. Emily Chen</td>
+                </tr>
+                <tr>
+                    <td>16:30 - 17:00</td>
+                    <td>Closing Remarks & Announcements</td>
+                    <td>Dr. Jane Smith</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
 
-  <main>
-    <table>
-      <caption>Detailed Schedule of Events for TechCon 2024</caption>
-      <thead>
-        <tr>
-          <th scope="col">Time</th>
-          <th scope="col">Session</th>
-          <th scope="col">Speaker</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>09:00 - 10:00</td>
-          <td>Opening Keynote: The Future of Tech</td>
-          <td>Jane Smith</td>
-        </tr>
-        <tr>
-          <td>10:15 - 11:00</td>
-          <td>AI in Everyday Life</td>
-          <td>Emily Zhang</td>
-        </tr>
-        <tr>
-          <td>11:15 - 12:00</td>
-          <td>Cybersecurity Trends 2024</td>
-          <td>Michael Johnson</td>
-        </tr>
-        <tr>
-          <td>12:00 - 13:00</td>
-          <td>Lunch Break</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>13:00 - 14:00</td>
-          <td>Panel Discussion: Women in Tech</td>
-          <td>Multiple Speakers</td>
-        </tr>
-        <tr>
-          <td>14:15 - 15:00</td>
-          <td>Building Scalable Cloud Apps</td>
-          <td>Emily Zhang</td>
-        </tr>
-        <tr>
-          <td>15:15 - 16:00</td>
-          <td>Closing Remarks</td>
-          <td>Jane Smith</td>
-        </tr>
-      </tbody>
-    </table>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 TechCon. All rights reserved. Copyright.</p>
-  </footer>
-
+    <footer>
+        &copy; 2024 TechCon. All rights reserved.
+    </footer>
 </body>
 </html>
+
